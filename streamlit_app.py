@@ -8,6 +8,10 @@ st.markdown("""
 #             """)
 # img = image_select("Machine Learning", ["classification.png", "regression.png", "clustering.png"])
 # st.write(img)
+#captions=["ABC/XYZ AI Clustering", "Customer AI Clustering", "Others"]
+#captions=["Feature Engineering", "Data Exploratory Analysis", "Others"]
+#captions=["Planning Bot", "Private LLM", "Others"]
+
 img1 = image_select("Segmentation", ["abc.png", "customer.png", "other.png"])
 image_urls = {
     "abc.png": "https://xyz-segmentation-westernacher.streamlit.app/",
@@ -16,7 +20,7 @@ image_urls = {
 }
 url = image_urls.get(img1, "")
 #st.image(img)
-st.markdown(f"[Check This Link]({url})")
+st.markdown(f"[🔗]({url})")
 
 img2 = image_select("Demand Sensing", ["feature.png", "DataExploratoryAnalysis.png", "other.png"])
 image_urls = {
@@ -25,7 +29,7 @@ image_urls = {
     "other.png": "https://xyz-segmentation-westernacher.streamlit.app/"
 }
 url = image_urls.get(img2, "")
-st.markdown(f"[Check This Link]({url})")
+st.markdown(f"[🔗({url})")
 
 img3 = image_select("AGI", ["PlanningBot.png", "PrivateLLM.png", "other.png"])
 image_urls = {
@@ -34,8 +38,16 @@ image_urls = {
     "other.png": "https://xyz-segmentation-westernacher.streamlit.app/"
 }
 url = image_urls.get(img3, "")
-st.markdown(f"[Check This Link]({url})")
+st.markdown(f"[🔗]({url})")
 
+
+# img4 = image_select(
+#         label="Select a cat",
+#         images=[
+#             "abc.png", "customer.png", "other.png"
+#         ],
+#         captions=["A cat", "Another cat", "Oh look, a cat!"]
+#     )
 
 
     
