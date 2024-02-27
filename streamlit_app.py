@@ -29,7 +29,7 @@ image_urls = {
     "other.png": "https://xyz-segmentation-westernacher.streamlit.app/"
 }
 url = image_urls.get(img2, "")
-st.markdown(f"[🔗({url})")
+st.markdown(f"[🔗]({url})")
 
 img3 = image_select("AGI", ["PlanningBot.png", "PrivateLLM.png", "other.png"])
 image_urls = {
