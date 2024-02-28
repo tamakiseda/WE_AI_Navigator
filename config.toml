@@ -1,0 +1,15 @@
+[theme]
+base="light"
+primaryColor="#1596d1"
+
+
+
+[deprecation]
+showPyplotGlobalUse = false
+
+
+[server]
+# Max size, in megabytes, of messages that can be sent via the WebSocket
+# connection.
+# Default: 200
+maxMessageSize = 800
