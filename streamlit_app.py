@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_image_select import image_select
 st.image("./Westernacher_Logo_3.png")
 st.markdown("""
-    ## Westernacher AI Navigator
+    ## WE AI Navigator
 
 #             """)
 
